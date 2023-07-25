@@ -7,6 +7,7 @@
 ### **FRONT END**
 
 - [ ] Exercícios de **Introdução à Programação**;
+    - Exercicios introdutórios no [Google Drive](https://drive.google.com/drive/folders/1vZddpQl1hLWakR3gig-p8cOgDq0iZkiC/). 
 <!-- - [x] Exercícios de **Variáveis**;
 - [x] Exercícios de **Condicionais**;
 - [x] Exercícios de **Arrays e Loops**;
