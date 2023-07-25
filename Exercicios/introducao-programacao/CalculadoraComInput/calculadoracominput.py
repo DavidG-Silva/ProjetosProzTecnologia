@@ -2,6 +2,18 @@ def calculadora():
     num1 = 0
     num2 = 0
     operador = None
+
+    while True:
+        try:
+            operador = int(input("Informe a operacao a realizar [1 - SOMA] [2 - SUBTRACAO] [3 - MULTIPLICACAO] [4 - DIVISAO] [0 - SAIR]: "))
+            if operador in range (1,5):
+                break
+            elif operador == 0:
+                return 'sair'
+            else:
+                print("Essa opcao nao existe!!")
+        except:
+            print("Essa opcao nao existe!!")
     
     while True:
         try:
@@ -16,20 +28,8 @@ def calculadora():
             break
         except:
             print("Informe um numero valido!")
-
-    while True:
-        try:
-            operador = int(input("Informe a operacao a realizar [1 - SOMA] [2 - SUBTRACAO] [3 - MULTIPLICACAO] [4 - DIVISAO] [0 - SAIR]: "))
-            if operador in range (1,5):
-                break
-            elif operador == 0:
-                return 'sair'
-            else:
-                print("Essa opcao nao existe!!")
-        except:
-            print("Essa opcao nao existe!!")
+  
     
-
     if operador == 1:
         return num1 + num2
     elif operador == 2:
